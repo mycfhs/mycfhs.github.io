@@ -27,7 +27,7 @@ author:
   pronouns         : # example: "she/her"  
   bio              : "Graduate student at Dalian University of Technology with research focus on AIGC"
   location         : "Dalian, China"
-  employer         : "Red Brick University"
+  employer         : "Dalian University of Technology"
   uri              : # URL
   email            : "2286247133@qq.com" 
 
@@ -46,7 +46,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  github           : "mycfhs"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
@@ -68,7 +68,7 @@ author:
   steam            : # Username
   telegram         : # URL
   tumblr           : # Username
-  twitter          : # Username for X / Twitter
+  twitter          : "mycfhs"
   vine             : # Username
   weibo            : # Username
   wikipedia        : # Username
