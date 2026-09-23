@@ -1,152 +1,39 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
+    "name": "YiCheng Yang 杨镒丞",
+    "label": "M.S. Student · World Models · Autonomous Driving · Computer Vision",
+    "email": "2286247133@qq.com",
     "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
-    "location": {
-      "address": "",
-      "postalCode": "",
-      "city": "Earth",
-      "countryCode": "US",
-      "region": ""
-    },
+    "website": "https://mycfhs.github.io",
+    "summary": "Master's student at Dalian University of Technology working on end-to-end autonomous driving, world models, diffusion models, and multimodal AI.",
+    "location": {"city": "Dalian", "countryCode": "CN"},
     "profiles": [
-      {
-        "network": "Google Scholar",
-        "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-      },
-      {
-        "network": "ORCID",
-        "username": "",
-        "url": "http://orcid.org/yourorcidurl"
-      },
-      {
-        "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
-      }
+      {"network": "Google Scholar", "username": "", "url": "https://scholar.google.com.hk/citations?hl=zh-CN&user=ghUWqRcAAAAJ"},
+      {"network": "GitHub", "username": "mycfhs", "url": "https://github.com/mycfhs"}
     ]
   },
-  "work": [],
+  "work": [
+    {"position": "Algorithm Intern", "company": "Bosch · Intelligent Driving & Control", "startDate": "2026.06", "endDate": "2026.09", "summary": "World models, temporal modeling, real-vehicle deployment, and automated evaluation; 85 ms to 20 ms trajectory inference."},
+    {"position": "Model Intern", "company": "Qingzhou Zhihang · Parking Model Team", "startDate": "2025.09", "endDate": "2026.05", "summary": "VAD end-to-end scoring models, long-tail training, collision reduction, temporal consistency, and large-scale data analysis."}
+  ],
   "education": [
-    {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
-      "gpa": null,
-      "courses": []
-    }
+    {"institution": "Dalian University of Technology", "area": "M.S. in Information and Communication Engineering", "studyType": "Master", "startDate": "2024.09", "endDate": "2027.07", "courses": ["Computer Vision", "Deep Learning", "Linear Algebra"]},
+    {"institution": "Dalian University of Technology", "area": "B.S. in Artificial Intelligence", "studyType": "Bachelor", "startDate": "2020.09", "endDate": "2024.07", "courses": ["Computer Vision", "Deep Learning", "Image Processing"]}
   ],
-  "skills": [],
-  "languages": [],
-  "interests": [],
-  "references": [],
+  "skills": [
+    {"name": "Deep Learning", "keywords": ["PyTorch", "Diffusion Models", "MLLM", "Reinforcement Learning", "LoRA"]},
+    {"name": "Computer Vision", "keywords": ["Detection", "Segmentation", "Visual Reasoning", "BEV", "Temporal Modeling"]},
+    {"name": "Robotics & Deployment", "keywords": ["2D/3D SLAM", "Auto-Aim", "Edge Deployment", "Vehicle Deployment", "Evaluation"]},
+    {"name": "Programming", "keywords": ["Python", "C/C++", "Linux", "OpenCV"]}
+  ],
   "publications": [
-    {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "http://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "http://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
-    }
+    {"name": "DreamMix: Decoupling Object Attributes for Enhanced Editability in Customized Image Inpainting", "publisher": "IJCV · CCF-A · First Author", "releaseDate": "2025", "website": "https://github.com/mycfhs/DreamMix", "summary": "Disentangled diffusion inpainting for identity preservation and attribute editing."},
+    {"name": "FineRS++: Multi-Hypothesis Reasoning and Segmentation of Small Objects in High-Resolution Images", "publisher": "TPAMI · Under Review · Student First Author", "releaseDate": "2026", "website": "", "summary": "Qwen2.5-VL-based high-resolution reasoning and segmentation."}
   ],
-  "presentations": [
-    {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
-    }
-  ],
-  "teaching": [
-    {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
-    },
-    {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
-    }
-  ],
-  "portfolio": [
-    {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
-      "date": "",
-      "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
-    }
-  ]
+  "presentations": [],
+  "teaching": [],
+  "portfolio": [],
+  "languages": [],
+  "interests": [{"name": "Research Interests", "keywords": ["World Models", "Autonomous Driving", "AIGC", "Multimodal AI"]}],
+  "references": []
 }
