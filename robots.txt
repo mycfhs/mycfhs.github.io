@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mycfhs.github.io/sitemap.xml

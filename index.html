@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>YiCheng Yang · 杨镒丞</title>
+<meta name="description" content="YiCheng Yang is an M.S. student at Dalian University of Technology working on end-to-end autonomous driving, world models, computer vision, and generative AI.">
+<meta name="author" content="YiCheng Yang">
+
+<meta property="og:type" content="profile">
+<meta property="og:title" content="YiCheng Yang · 杨镒丞">
+<meta property="og:description" content="M.S. student at Dalian University of Technology · World models · Autonomous driving · Computer vision · Generative AI">
+<meta property="og:url" content="https://mycfhs.github.io/">
+<meta property="og:image" content="https://mycfhs.github.io/assets/avatar.jpg">
+
+<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0e1014" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/avatar.jpg">
+<link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+
+<nav class="topbar" aria-label="Primary">
+  <div class="wrap">
+    <a class="brand" href="#top">YiCheng Yang</a>
+    <div class="nav-links">
+      <a href="#experience">Experience</a>
+      <a href="#research">Research</a>
+      <a href="#competitions">Competitions</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<main class="wrap">
+
+  <header class="hero" id="top">
+    <img class="avatar" src="/assets/avatar.jpg" alt="Portrait of YiCheng Yang" width="440" height="440">
+    <div class="hero-text">
+      <h1>YiCheng Yang <span class="cn">杨镒丞</span></h1>
+      <p class="role">M.S. student in Information and Communication Engineering</p>
+      <p class="affil">Dalian University of Technology</p>
+      <p class="interests">World Models · Autonomous Driving · Computer Vision · Generative AI</p>
+      <p class="links">
+        <a href="mailto:2286247133@qq.com">Email</a>
+        <span class="sep">·</span>
+        <a href="https://github.com/mycfhs" target="_blank" rel="noopener">GitHub</a>
+        <span class="sep">·</span>
+        <a href="https://scholar.google.com/citations?user=ghUWqRcAAAAJ" target="_blank" rel="noopener">Google Scholar</a>
+      </p>
+    </div>
+  </header>
+
+  <section class="about">
+    <p>
+      I am a master's student at <strong>Dalian University of Technology</strong> (2024–2027), working in
+      Prof. Huchuan Lu's group. My research sits at the intersection of <strong>end-to-end autonomous driving</strong>,
+      <strong>world models</strong>, and <strong>generative vision</strong> — from controllable image editing to
+      high-resolution visual reasoning.
+    </p>
+    <p>
+      I enjoy taking ideas from research prototypes to measurable, deployable systems: designing the model,
+      training and evaluating it, and iterating against real-vehicle feedback. Before my master's, I spent three
+      years building vision systems for robotics competitions.
+    </p>
+    <p class="about-cn">
+      我目前在大连理工大学攻读硕士，研究兴趣包括端到端自动驾驶、世界模型与生成式视觉，重视从研究原型到可部署系统的完整闭环。
+    </p>
+  </section>
+
+  <!-- ───────────────────────── Experience ───────────────────────── -->
+  <section id="experience">
+    <h2>Experience <span class="h2-cn">自动驾驶实习</span></h2>
+
+    <article class="item">
+      <div class="when">2026.06 — 2026.09</div>
+      <div class="what">
+        <h3>Algorithm Intern <span class="at">Bosch · Intelligent Driving &amp; Control</span></h3>
+        <p class="lede">One-stage end-to-end world models for real-vehicle deployment.</p>
+        <ul>
+          <li>Built an internal world-model foundation on <strong>FastWAM</strong> and designed <strong>DeltaWorld</strong> for dynamic-environment understanding, reducing trajectory prediction error by <strong>30%</strong>.</li>
+          <li>Developed <strong>PV-Register</strong> to improve traffic-light representation and interaction, raising interaction success from <strong>20% to 90%</strong>.</li>
+          <li>Led temporal-modeling iterations that cut real-vehicle trajectory-jitter cases by <strong>90%</strong>, improving acceleration and braking comfort.</li>
+          <li>Designed a single-step trajectory inference strategy, reducing latency from <strong>85&nbsp;ms to 20&nbsp;ms</strong>; contributed to automated evaluation and on-vehicle debugging.</li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="item">
+      <div class="when">2025.09 — 2026.05</div>
+      <div class="what">
+        <h3>Model Intern <span class="at">Qingzhou Zhihang · Parking Model Team</span></h3>
+        <p class="lede">VAD end-to-end scoring model for autonomous parking.</p>
+        <ul>
+          <li>Built the VAD end-to-end scoring model from scratch: encoder–decoder architecture, task-specific encoders for detection / OCC / navigation, and data augmentation.</li>
+          <li>Applied <strong>Focal Loss + OHEM</strong>, <strong>R-Drop</strong>, and self-supervised learning to long-tail and overfitting issues, lifting the rare / complex-scene trajectory pass rate from <strong>30% to&nbsp;85%</strong>.</li>
+          <li>Designed collision losses and a classification <strong>RL</strong> strategy, reducing collision rate from <strong>2% to&nbsp;0.3%</strong>; introduced recurrent temporal modeling, reducing trajectory-consistency P95 from <strong>16&nbsp;m to 3&nbsp;m</strong>.</li>
+          <li>Processed data at the scale of <strong>tens of millions of frames</strong>, and completed exploratory studies of Diffusion Planner and MotionLM.</li>
+        </ul>
+      </div>
+    </article>
+  </section>
+
+  <!-- ───────────────────────── Research ───────────────────────── -->
+  <section id="research">
+    <h2>Research <span class="h2-cn">研究生科研项目</span></h2>
+
+    <article class="card">
+      <div class="card-head">
+        <h3>DreamMix: Decoupling Object Attributes for Enhanced Editability in Customized Image Inpainting</h3>
+        <p class="venue">
+          <span class="pill pill-strong">IJCV 2026 · CCF-A</span>
+          <span class="pill">First Author</span>
+          <span class="when-inline">2024 — 2026</span>
+        </p>
+      </div>
+      <a class="figure-link" href="/assets/dreammix.jpg" target="_blank" rel="noopener" aria-label="Open the full-size DreamMix figure">
+        <picture>
+          <source srcset="/assets/dreammix.webp" type="image/webp">
+          <img class="figure" src="/assets/dreammix.jpg" alt="DreamMix teaser: identity preservation, attribute editing, and small-object inpainting results" width="1800" height="1051" loading="lazy">
+        </picture>
+      </a>
+      <p>Decouples object identity from textual attributes so that a customized object can be inserted into a scene and then edited by text — without losing its identity.</p>
+      <ul>
+        <li>Introduced an <strong>Attribute Decoupling Mechanism</strong>, a <strong>Textual Attribute Substitution</strong> module, and a disentangled local–global inpainting framework.</li>
+        <li>Reaches CLIP-T <strong>0.289</strong> on SDXL and <strong>0.290</strong> on FLUX, adapting from only <strong>4–6 reference images</strong>.</li>
+        <li>Open-source project with <strong>100+ GitHub stars</strong>.</li>
+      </ul>
+      <p class="card-links">
+        <a href="https://link.springer.com/article/10.1007/s11263-026-03066-w" target="_blank" rel="noopener">Paper</a>
+        <a href="https://arxiv.org/abs/2411.17223" target="_blank" rel="noopener">arXiv</a>
+        <a href="https://github.com/mycfhs/DreamMix" target="_blank" rel="noopener">Code</a>
+      </p>
+    </article>
+
+    <article class="card">
+      <div class="card-head">
+        <h3>FineRS++: Multi-Hypothesis Reasoning and Segmentation of Small Objects in High-Resolution Images</h3>
+        <p class="venue">
+          <span class="pill pill-strong">TPAMI · Under Review</span>
+          <span class="pill">Student First Author</span>
+          <span class="when-inline">2026</span>
+        </p>
+      </div>
+      <p>A Qwen2.5-VL-based global–local perception framework for reasoning about and segmenting small objects in very high-resolution images.</p>
+      <ul>
+        <li>Coarse-to-fine MLLM reinforcement learning (<strong>GSE + LPR</strong>) with a GRPO localization-aware backtracking reward.</li>
+        <li>Built a dedicated high-resolution small-object annotation dataset; on FINERS-4k reaches gIoU <strong>55.1</strong>, cIoU <strong>46.5</strong>, MVQA <strong>83.3%</strong>, OVQA <strong>56.7%</strong>.</li>
+      </ul>
+    </article>
+
+    <article class="card">
+      <div class="card-head">
+        <h3>Pet Style Transformation</h3>
+        <p class="venue">
+          <span class="pill">Project Lead</span>
+          <span class="when-inline">2025</span>
+        </p>
+      </div>
+      <p>Identity-preserving cute-style transfer for pet photos, using in-context generation and paired-data synthesis.</p>
+      <ul>
+        <li>Built a Flux-Fill in-context generation and paired-data synthesis pipeline with <strong>LoRA weight fusion</strong>.</li>
+        <li>Preserves pet identity while transferring the target style, with cross-sample generalization.</li>
+      </ul>
+    </article>
+
+    <article class="card">
+      <div class="card-head">
+        <h3>MoE-based Object Detection for Challenging Environments</h3>
+        <p class="venue">
+          <span class="pill">Project Lead</span>
+          <span class="when-inline">2024</span>
+        </p>
+      </div>
+      <p>Robust detection under night, rain, and snow, with a mixture-of-experts detector built on DINO.</p>
+      <ul>
+        <li>Added a <strong>global–local routing MoE</strong> module to DINO and built the supporting dataset pipeline.</li>
+        <li>Improved mAP from <strong>0.52 to 0.59</strong> in challenging weather and lighting conditions.</li>
+      </ul>
+    </article>
+  </section>
+
+  <!-- ───────────────────────── Competitions ───────────────────────── -->
+  <section id="competitions">
+    <h2>Competitions <span class="h2-cn">本科生科创竞赛</span></h2>
+
+    <ul class="awards">
+      <li>
+        <div>
+          <h3>RoboMaster Super Competition</h3>
+          <p>Vision Team Deputy Leader · auto-aim, object detection, 3D SLAM</p>
+        </div>
+        <span class="award">National First Prize</span>
+      </li>
+      <li>
+        <div>
+          <h3>China Robot and Artificial Intelligence Competition</h3>
+          <p>Team Captain · 2D SLAM, robotic-arm control and planning</p>
+        </div>
+        <span class="award">National First Prize</span>
+      </li>
+      <li>
+        <div>
+          <h3>RoboCup China Robot Competition</h3>
+          <p>Team Captain · instance segmentation, edge deployment, geometric planning</p>
+        </div>
+        <span class="award">National First Prize</span>
+      </li>
+      <li>
+        <div>
+          <h3>National College Student Innovation and Entrepreneurship Program</h3>
+          <p>Team Captain · voice interaction, pose recognition, IoT</p>
+        </div>
+        <span class="award">Provincial First Prize</span>
+      </li>
+      <li>
+        <div>
+          <h3>China College Computer Design Competition</h3>
+        </div>
+        <span class="award">National Second Prize</span>
+      </li>
+    </ul>
+    <p class="award-note">10+ national and provincial awards in total, including the China University Intelligent Robot Creative Competition.</p>
+  </section>
+
+  <!-- ───────────────────────── Education & Skills ───────────────────────── -->
+  <section id="background">
+    <h2>Education <span class="h2-cn">教育背景</span></h2>
+    <ul class="awards awards-plain">
+      <li>
+        <div>
+          <h3>M.S. in Information and Communication Engineering</h3>
+          <p>Dalian University of Technology</p>
+        </div>
+        <span class="when-inline">2024.09 — 2027.07</span>
+      </li>
+      <li>
+        <div>
+          <h3>B.S. in Artificial Intelligence</h3>
+          <p>Dalian University of Technology</p>
+        </div>
+        <span class="when-inline">2020.09 — 2024.07</span>
+      </li>
+    </ul>
+
+    <h2 class="h2-spaced">Skills <span class="h2-cn">技术栈</span></h2>
+    <dl class="skills">
+      <dt>Deep learning</dt>
+      <dd>PyTorch · Diffusion Models · MLLM · Reinforcement Learning · LoRA</dd>
+      <dt>Computer vision</dt>
+      <dd>Detection · Segmentation · BEV · Visual Reasoning · Temporal Modeling</dd>
+      <dt>Deployment</dt>
+      <dd>2D / 3D SLAM · Edge &amp; Vehicle Deployment · Automated Evaluation</dd>
+      <dt>Programming</dt>
+      <dd>Python · C / C++ · Linux · OpenCV</dd>
+    </dl>
+  </section>
+
+</main>
+
+<footer id="contact">
+  <div class="wrap">
+    <p class="footer-links">
+      <a href="mailto:2286247133@qq.com">2286247133@qq.com</a>
+      <span class="sep">·</span>
+      <a href="https://github.com/mycfhs" target="_blank" rel="noopener">GitHub</a>
+      <span class="sep">·</span>
+      <a href="https://scholar.google.com/citations?user=ghUWqRcAAAAJ" target="_blank" rel="noopener">Google Scholar</a>
+    </p>
+    <p class="footer-meta">Dalian, China · Last updated November 2026</p>
+    <p class="footer-meta">&copy; 2026 YiCheng Yang</p>
+  </div>
+</footer>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "YiCheng Yang",
+  "alternateName": "杨镒丞",
+  "url": "https://mycfhs.github.io/",
+  "email": "mailto:2286247133@qq.com",
+  "image": "https://mycfhs.github.io/assets/avatar.jpg",
+  "affiliation": {
+    "@type": "CollegeOrUniversity",
+    "name": "Dalian University of Technology"
+  },
+  "sameAs": [
+    "https://github.com/mycfhs",
+    "https://scholar.google.com/citations?user=ghUWqRcAAAAJ"
+  ],
+  "knowsAbout": [
+    "End-to-end autonomous driving",
+    "World models",
+    "Computer vision",
+    "Diffusion models",
+    "Multimodal large language models"
+  ]
+}
+</script>
+</body>
+</html>
