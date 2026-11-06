@@ -1,6 +1,6 @@
-# mycfhs.github.io
+# yangy1c.github.io
 
-Personal homepage of [YiCheng Yang](https://mycfhs.github.io/), served by GitHub Pages.
+Personal homepage of [YiCheng Yang](https://yangy1c.github.io/), served by GitHub Pages.
 
 The site is a single static page — no Jekyll, no build step, no external dependencies.
 
