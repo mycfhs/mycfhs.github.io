@@ -18,9 +18,13 @@ The site is a single static page — no Jekyll, no build step, no external depen
 
 ## Competition images
 
-Each competition entry has a two-slide carousel (demo GIF → award certificate).
-Drop files into `assets/competitions/` with these exact names and they replace the
-placeholders automatically — no HTML edits needed.
+The competitions section is a deck with one event per page — swipe sideways
+(or use the arrows at the card edges) to move between events. Inside a page,
+the strip flips between the demo GIF and the award certificate via the arrows
+and dots.
+
+Drop files into `assets/competitions/` with these exact names and they replace
+the placeholders automatically — no HTML edits needed.
 
 | Slug | Demo file | Certificate file |
 | --- | --- | --- |
